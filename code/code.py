@@ -60,6 +60,7 @@ extension_lang_map = {
     ".vba": "vba",
     ".vim": "vimscript",
     ".vimrc": "vimscript",
+    ".swift": "swift"
 }
 
 

@@ -36,6 +36,7 @@ language_extensions = {
     'rust': 'rs',
     # 'sass': 'sass',
     'scala': 'scala',
+    'swift': 'swift',
     # 'snippets': 'snippets',
     'talon': 'talon',
     'terraform': 'tf',

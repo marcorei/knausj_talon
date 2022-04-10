@@ -21,5 +21,6 @@ state let: "let "
 state if let: "if let "
 state guard let: "guard let "
 
-^funk <user.text>$: user.code_default_function(text)
-^private funk <user.text>$: user.code_private_function(text)
+^(funk|function) <user.text>$: user.code_default_function(text)
+^private (funk|function) <user.text>$: user.code_private_function(text)
+^create body$: user.create_body()

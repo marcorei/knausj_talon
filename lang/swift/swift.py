@@ -24,6 +24,9 @@ class UserActions:
         actions.insert(" else if ()")
         actions.key("left")
 
+    def code_operator_assignment():
+        actions.auto_insert(" = ")
+
     def code_insert_function(text: str, selection: str):
         if selection:
             text = text + "({})".format(selection)
@@ -52,3 +55,11 @@ class UserActions:
         )
 
         actions.user.code_insert_function(result, None)
+
+@mod.action_class
+class LanguageActions:
+    def create_body():
+        """Create and enter body"""
+        actions.insert(r" {}")
+        actions.key("left")
+        actions.key("enter")

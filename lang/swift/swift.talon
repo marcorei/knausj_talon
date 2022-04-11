@@ -1,8 +1,4 @@
-mode: command
-and mode: user.swift
-mode: command
-and mode: user.auto_lang
-and code.language: swift
+tag: user.swift
 -
 tag(): user.code_operators
 tag(): user.code_comment

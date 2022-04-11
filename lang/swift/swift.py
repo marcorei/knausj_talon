@@ -3,9 +3,7 @@ from talon import Context, Module, actions, settings
 mod = Module()
 ctx = Context()
 ctx.matches = r"""
-mode: user.swift
-mode: user.auto_lang
-and code.language: swift
+tag: user.swift
 """
 
 @ctx.action_class("user")

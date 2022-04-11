@@ -15,9 +15,9 @@ app: xcode
 class WinActions:
     def filename():
         title = actions.win.title()
-        result = title.split(" — ")[0]
+        result = title.split(" — ")[1]
 
-        print("file name id {}".format(result))
+        # print("file name id {}".format(result))
 
         if "." in result:
             return result
